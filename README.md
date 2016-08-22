@@ -7,18 +7,18 @@ project.
 Thank you for doing that.
 
 ###List of Files in the Repo:
-1. *final.r* 
+1. *run_analysis.r* 
   - The R script that describes the transformations I have applied.
   - Comments have been added as well.
 2. *Codebook.md*
   - This document describes the names given to the column, and the units of measurement.
 3. *TidiedHumanActivity.txt*
   - This text file contains the Tided data file.
-  - The operations of *final.r* have beeen applied to the training and test data, available at [this link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+  - The operations of *run_analysis.r* have beeen applied to the training and test data, available at [this link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
   
 
 ###Operating on the files
-- *final.r* 
+- *run_analysis.r* 
   - To run this file, the directory one ought to be in the folder that houses the test and train folders.
   - *Thus the dataset must have been downloaded and extracted alread.)
   - On my computer, the extracted folder "UCI HAR Dataset" is where my working directory lies.
