@@ -2,7 +2,7 @@
 Final Project
 ##A few words from the author/student/participant/victim
 Thank you for taking the time to review this project :grinning:. You probably 
-have other commitments attend to, yet you are reading this and reviewing my 
+have other commitments to attend to, yet you are reading this and reviewing my 
 project.
 Thank you for doing that.
 
