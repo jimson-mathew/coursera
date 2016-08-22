@@ -29,6 +29,7 @@ Thank you for doing that.
   - Required attached libraries:
     - data.table
     - dplyr
+    
 - *TidiedHumanActivity.txt*
   - To read this file in:
 ```
