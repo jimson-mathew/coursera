@@ -13,7 +13,7 @@ yTrain <- read.table("train/y_train.txt")
 colnames(xTrain)<- feature_lbls$V2
 colnames(yTrain)[1]<-"activity_labels"
 colnames(subTrain)[1]<-"participant.number"
-yTrain$activity_labels <- factor(yTrain$activity_labels,labels = c("walking","walking.upstairs","walking_downstairs", "sitting","standing","laying"))
+yTrain$activity_labels <- factor(yTrain$activity_labels,levels = c("walking","walking.upstairs","walking_downstairs", "sitting","standing","laying"))
 
 #Adding the activity_labels to xTrain from yTrain, along with the participant
 #number in order to merge the split training data
@@ -72,5 +72,3 @@ output <- summarise_all(.tbl =  tempGuess, .funs = "mean")
 
 #Writing the output to a text file.
 write.table(output, file = "TidiedHumanActivity.txt", row.names = F)
-
-
